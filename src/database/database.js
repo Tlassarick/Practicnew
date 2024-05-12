@@ -14,9 +14,10 @@ connection.connect((err) => {
 
 export const getData = () => {
   return new Promise((resolve, reject) => {
-    connection.query("SELECT * FROM abonent", (err, results) => {
+    connection.query('SELECT * FROM abonent', (err, results) => {
       if (err) reject(err);
-      resolve(results);
+      else resolve(results);
     });
   });
 };
+export default connection;

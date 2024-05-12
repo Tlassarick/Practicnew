@@ -3,10 +3,8 @@ import React from 'react'
 function Card({ abonent }) {
     return (
       <div className="card">
-        <h2>{abonent.pib}</h2>
-        <p>{abonent.position}</p>
-        <p>{abonent.unit_name}</p>
-        <p>{abonent.working_room}</p>
+        <h2>{abonent.pib}</h2><a>{abonent.position}{abonent.unit_name}{abonent.working_room}{abonent.abonent_number}</a>
+        
       </div>
     );
   }
