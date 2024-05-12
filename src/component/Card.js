@@ -1,8 +1,19 @@
 import React from "react";
+import  { useState } from "react";
 
-function Card({ abonent }) {
+function Card({ abonent, onSelect, selected }) {
+  const [isSelected, setIsSelected] = useState(selected);
+
+  const toggleSelect = () => {
+    const newSelectedState = !isSelected;
+    setIsSelected(newSelectedState);
+    onSelect(abonent.id, newSelectedState);
+  };
   return (
     <div className="card">
+            <div className="selection-box" onClick={toggleSelect}>
+        {isSelected ? "✖" : ""}
+      </div>
       <div className="card-pib">{abonent.pib.replace(/\?/g, "і")}</div>
       <div className="card-position">
         {String(abonent.position).replace(/\?/g, "і")}

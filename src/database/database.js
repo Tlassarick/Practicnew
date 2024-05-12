@@ -20,4 +20,12 @@ export const getData = () => {
     });
   });
 };
+export const deleteData = (abonentId) => {
+  return new Promise((resolve, reject) => {
+    connection.query('DELETE FROM abonent WHERE abonent_id = ?', [abonentId], (err, results) => {
+      if (err) reject(err);
+      else resolve(results);
+    });
+  });
+};
 export default connection;
