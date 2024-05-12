@@ -1,32 +1,19 @@
-import React from "react";
-import "./Header.css";
-function Header() {
+import React from 'react';
+import './Header.css';
+
+function Header({ username }) {
   return (
-    <header>
-      <div className="container">
-        <div className="logo">
-          <img src="" height={100} width={250} alt="Logo" />
-          <a className="logo-font">АльоГараж</a>
-        </div>
-        <nav>
-          <ul>
-            <li className="nav-button">
-              <a href="#" className="nav-name">
-                Home
-              </a>
-            </li>
-            <li className="nav-button">
-              <a href="#" className="nav-name">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div className="user">
-          <p>Welcome, John Doe</p>
-        </div>
+    <header className="header">
+        <div className='lodo-body'>
+      <a href="/" className="logo">Логотип</a>
       </div>
+      <nav className="nav-links">
+        <a href="/contacts" className="nav-link">Контакти</a>
+        {/* Добавьте другие ссылки по мере необходимости */}
+      </nav>
+      <div className="user-panel">Welcome, {username}</div>
     </header>
   );
 }
+
 export default Header;
