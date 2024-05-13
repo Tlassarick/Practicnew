@@ -99,3 +99,16 @@
   line-height: 22px;
   margin-left: 10px;
 }
+.search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.search-icon {
+  position: absolute;
+  right: 10px; /* Отступ справа, чтобы иконка была внутри поля ввода */
+  top: 50%; /* Для вертикального центрирования */
+  transform: translateY(-50%); /* Для вертикального центрирования */
+  cursor: pointer;
+  padding-left: 7px;
+}

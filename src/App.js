@@ -61,7 +61,7 @@ function App() {
       <div className="toolbar">
         <button className='add' onClick={handleAddClick}>Додати інформацию</button>
         <button className='remove' onClick={handleDeleteSelected}>Видалити</button>
-        <div>
+        <div className='search-container'>
           <input
             type="text"
             placeholder=""
@@ -69,7 +69,7 @@ function App() {
             onChange={handleSearchChange}
             className='search'
           />
-          <CiSearch />
+          <div className="search-icon"><CiSearch /></div>
         </div>
       </div>
       <div className="cards-container">
