@@ -18,7 +18,21 @@
   border-bottom: 1px solid #c1bcbc;
   padding-bottom: 15px; /* Отступ снизу внутри карточки перед линией */
 }
+.remove:hover {
+  background-color: #F39B9B;
+}
 
+.remove:active {
+  background-color: #F26464;
+  color: white;
+}
+.add:hover {
+  background-color: #CBF3DB;
+}
+
+.add:active {
+  background-color: #85EE8F;
+}
 .card-pib,
 .card-position,
 .card-unit-name,
@@ -56,16 +70,28 @@
   width: 918px;
 }
 .add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 173px;
   height: 30px;
   background: #e9e5e5;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
 }
 .remove {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 102px;
   height: 30px;
   background: #e9e5e5;
   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+}
+svg{
+  margin-left: 10px;
+}
+.remove:active svg path {
+  stroke: white;
 }
 .search-container {
   position: relative;

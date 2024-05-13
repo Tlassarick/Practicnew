@@ -84,7 +84,14 @@
   margin-left: 15px;
   border: none;
 }
+.logo{
+  width: 207px;
+  height: 28px;
+}
 .directory-button {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
   margin-top: 15px;
   width: 262px;
   padding: 10px;
@@ -110,9 +117,9 @@
   top: 50%; /* Для вертикального центрирования */
   transform: translateY(-50%); /* Для вертикального центрирования */
   cursor: pointer;
-  padding-left: 7px;
 }
 .svg{
+  padding: 0;
   margin-left: 5px;
   margin-right: 14px;
   margin-top: 3px;

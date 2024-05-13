@@ -6,7 +6,7 @@ function Header({ username }) {
   return (
     <header className="header">
       <div className="logo-body">
-        <img href="/" className="logo" alt="logo" src="../img/logo.png"></img>
+      <img href="/" className="logo" alt="logo" src="https://s3-alpha-sig.figma.com/img/065a/e1c8/f7e649237d3e95c1cadcdc74c00f3978?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=TuKEUn3ujSpowuhXlzGWMcVqs08YPl9wqz1tEDxzPWFZxslJQMzdlh4o01nvvBeSwYY0q6u-MWskpLFATCiHRsyQJGB0cx4~hkqUmSoeWjdrNHZTf8hmdq7gBeEhgdBBBErkvgdJawvFeGgVWGNOD-XICbnafTyhzB~CNoGQLpGc4faQqORj6lT~zoYOIx-2k0AQtAvPeQAhaaIZpZtBoXe3MmqOpljaPWWf1P48FfUWkCdJ3izUPt7dPIiLyzn7LtMe4uQEI6m2WksZC~ZhVn9DHaHYcntccowmu9O41s6DXwx2HVP5AMkI~bVUQEkbnh2gtg1WfTqHLLZesJ~nMQ__"></img>
         <div className="width-panel">
           <div className="panel">
             <div className="search-box">
