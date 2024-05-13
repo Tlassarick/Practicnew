@@ -5,19 +5,21 @@
     align-items: center;
     padding: 10px 20px;
     border-bottom: 1px solid #172B52;
+    height: 69px;
   }
   
   .logo {
-    
-    color: white; /* Изменим цвет текста на белый для лучшей видимости */
+    color: white; 
     text-decoration: none;
- 
     padding: 0 10px;
   }
   .logo-body{
     background-color: #4366AB;
     border-left: 2px solid #172B52;
     border-right: 2px solid #172B52;
+    width: 282px;
+    height: 69px;
+    margin-left: 120px;
   }
   .nav-links,
   .user-panel {

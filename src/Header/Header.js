@@ -4,12 +4,12 @@ import './Header.css';
 function Header({ username }) {
   return (
     <header className="header">
-        <div className='lodo-body'>
-      <a href="/" className="logo">Логотип</a>
+        <div className='logo-body'>
+          <img href="/" className='logo' alt='logo' src="./img/logo.png"></img>
       </div>
       <nav className="nav-links">
         <a href="/contacts" className="nav-link">Контакти</a>
-        {/* Добавьте другие ссылки по мере необходимости */}
+        
       </nav>
       <div className="user-panel">Welcome, {username}</div>
     </header>
