@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Card from './component/Card.js';
 import Header from './Header/Header.js';
 import './App.css'
+import { CiSearch } from "react-icons/ci";
 
 function App() {
   const [data, setData] = useState([]);
@@ -17,14 +18,6 @@ function App() {
     setSearchTerm(event.target.value);
   };
   const handleDeleteSelected = async (selectedIds) => {
-    selectedIds.forEach(async (abonent_id) => {
-      try {
-        await fetch(`http://localhost:3001/\${abonent_id}`, { method: 'DELETE' });
-        setData(currentData => currentData.filter(abonent => abonent.abonent_id !== abonent_id));
-      } catch (error) {
-        console.error('Error deleting abonent:', error);
-      }
-    });
   };
   const handleCardSelect = (id, isSelected) => {
     setSelectedIds(prevIds =>
@@ -58,7 +51,7 @@ function App() {
   }, []);
 
   return (
-    
+
     <div className="App">
       <Header />
       <div className="telephone">
@@ -66,21 +59,24 @@ function App() {
         <h4 className='textsmall'>забезпечує пошук даних в телефонному довіднику</h4>
       </div>
       <div className="toolbar">
-        <button className='add'onClick={handleAddClick}>Додати інформацию</button>
-        <button className='remove'onClick={handleDeleteSelected}>Видалити</button>
-        <input
-          type="text"
-          placeholder=""
-          value={searchTerm}
-          onChange={handleSearchChange}
-          className='search'
-        />
+        <button className='add' onClick={handleAddClick}>Додати інформацию</button>
+        <button className='remove' onClick={handleDeleteSelected}>Видалити</button>
+        <div>
+          <input
+            type="text"
+            placeholder=""
+            value={searchTerm}
+            onChange={handleSearchChange}
+            className='search'
+          />
+          <CiSearch />
+        </div>
       </div>
       <div className="cards-container">
 
-      {filteredData.map((abonent, index) => (
-        <Card key={index} abonent={abonent}onSelect={handleCardSelect} selected={selectedIds.includes(abonent.abonent_id)} />
-      ))}
+        {filteredData.map((abonent, index) => (
+          <Card key={index} abonent={abonent} onSelect={handleCardSelect} selected={selectedIds.includes(abonent.abonent_id)} />
+        ))}
       </div>
     </div>
   );
