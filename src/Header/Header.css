@@ -1,41 +1,96 @@
 .header {
-    background-color: #1C3566;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    border-bottom: 1px solid #172B52;
-    height: 69px;
-  }
-  
-  .logo {
-    color: white; 
-    text-decoration: none;
-    padding: 0 10px;
-  }
-  .logo-body{
-    background-color: #4366AB;
-    border-left: 2px solid #172B52;
-    border-right: 2px solid #172B52;
-    width: 282px;
-    height: 69px;
-    margin-left: 120px;
-  }
-  .nav-links,
-  .user-panel {
-    display: flex;
-    align-items: center;
-    border-left: 2px solid #172B52;
-    border-right: 2px solid #172B52;
-    padding: 0 10px;
-  }
-  
-  .nav-link {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-  }
-  
-  .user-panel {
-    color: white;
-  }
+  background-color: #1c3566;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #172b52;
+  height: 69px;
+}
+
+.logo {
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+.logo-body {
+  background-color: #4366ab;
+  border-left: 2px solid #172b52;
+  border-right: 2px solid #172b52;
+  width: 282px;
+  height: 69px;
+  margin-left: 120px;
+}
+.nav-links,
+.user-panel {
+  display: flex;
+  align-items: center;
+  border-left: 2px solid #172b52;
+  border-right: 2px solid #172b52;
+  padding: 0 10px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+.panel{
+  padding-top: 15px;
+}
+.user-panel {
+  color: #ffffff;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent; 
+  border-right: 8px solid transparent; 
+  border-top: 8px solid #d9d9d9; 
+  margin-left: 5px; 
+}
+.user-panel {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.width-panel {
+  width: 282px;
+  height: 933px;
+  background-color: #d4e3ff;
+  margin-top: 59px; 
+}
+.user-panel .welcome-text::after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  margin-left: 5px; 
+}
+
+.welcome-text {
+  padding-right: 10px; 
+  border-right: 1px solid #172b52; 
+}
+.search-input-header {
+  width: 252px;
+  height: 20px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+.directory-button{
+  width: 262px;
+  padding: 10px;
+  background-color: #ffffff; 
+  color: #DAAD0F; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400; 
+  font-size: 18px; 
+  line-height: 22px; 
+  border-radius: 5px;
+  margin: 0 auto; 
+}

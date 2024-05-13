@@ -33,10 +33,10 @@ function App() {
   };
   const filteredData = data.filter(item => {
     return Object.keys(item).some(key => {
-      // Проверяем, является ли значение текущего ключа строкой
       if (typeof item[key] === 'string') {
-        // Ищем совпадение ввода в любом месте строки (не зависимо от регистра)
         return item[key].toLowerCase().includes(searchTerm.toLowerCase());
+      } else if (typeof item[key] === 'number') {
+        return item[key].toString().includes(searchTerm);
       }
       return false;
     });
