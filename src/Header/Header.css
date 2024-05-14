@@ -104,6 +104,10 @@
   line-height: 22px;
   margin-left: 10px;
 }
+.telephone-click{
+  text-decoration: none;
+  color: #daad0f;
+}
 .search-box {
   position: relative;
   display: flex;
@@ -111,9 +115,9 @@
 }
 .search-icon {
   position: absolute;
-  right: 10px; /* Отступ справа, чтобы иконка была внутри поля ввода */
-  top: 50%; /* Для вертикального центрирования */
-  transform: translateY(-50%); /* Для вертикального центрирования */
+  right: 10px; 
+  top: 50%; 
+  transform: translateY(-50%); 
   cursor: pointer;
 }
 .svg{

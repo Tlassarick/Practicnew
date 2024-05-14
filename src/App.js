@@ -11,7 +11,7 @@ function App() {
 
 
   const handleAddClick = () => {
-    // Логика добавления информации
+    
   };
 
   const handleSearchChange = (event) => {
@@ -43,7 +43,7 @@ function App() {
         return response.json();
       })
       .then(data => {
-        setData(data.abonent); // Убедитесь, что вы обращаетесь к правильному ключу в вашем JSON
+        setData(data.abonent); 
       })
       .catch(error => {
         console.error('Error fetching abonents:', error);

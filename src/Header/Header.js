@@ -20,7 +20,7 @@ function Header({ username }) {
               </div>
             </div>
             <div className="directory-box">
-            <button className="directory-button">
+            <button className="directory-button" >
               <svg
                 width="22"
                 height="22"
@@ -75,7 +75,7 @@ function Header({ username }) {
                   stroke-linejoin="round"
                 />
               </svg>
-              Телефонний довідник
+              <a href="/" className="telephone-click">Телефонний довідник</a>
               </button>
             </div>
           </div>
