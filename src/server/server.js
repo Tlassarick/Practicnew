@@ -11,7 +11,6 @@ app.use(cors({
     origin: 'http://localhost:3000'
 }));
 
-
 app.get('/', async (req, res) => {
     try {
         const data = await getData();

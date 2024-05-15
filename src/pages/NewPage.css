@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&family=Seymour+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap");
+header {
+  width: 100%;
+  height: 105px;
+  background: #0000007d;
+}
+.main-text {
+  width: 925px;
+  height: 134px;
+  font-family: "Seymour One", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 45.25px;
+  text-align: left;
+  color: #39a1a1;
+padding-left: 161px;
+}
+.nav-link {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 56px;
+  padding-right: 49px;
+}
+.nav-links {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-left: none;
+  border-right: none;
+  margin-left: 15%;
+  padding-top: 24px;
+}
+.about {
+  width: 819px;
+  height: 316px;
+  top: -213px;
+  left: -156px;
+  border-radius: 43px;
+  background: #d9d9d980;
+  margin-bottom: 17px;
+  margin-left: 138px;
+}
+.text-box-about {
+  width: 766px;
+  height: 278px;
+  top: -191px;
+  left: -112px;
+  padding-top: 22px;
+  padding-left: 44px;
+}
+.span-about {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  color: #050505;
+}
+.why {
+  width: 819px;
+  height: 156px;
+  top: 120px;
+  left: -156px;
+  background: #d9d9d980;
+  border-radius: 43px;
+  margin-bottom: 17px;
+  margin-left: 138px;
+}
+.text-box-why {
+  width: 753px;
+  height: 125px;
+  padding-left: 50px;
+  padding-top: 14px;
+  border-radius: 43px;
+}
+.span-why {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #050505;
+}
+.what {
+  width: 819px;
+  height: 143px;
+  top: 293px;
+  left: -156px;
+  border-radius: 43px;
+  background: #d9d9d980;
+  margin-left: 138px;
+}
+.text-box-what {
+  width: 752px;
+  height: 100px;
+  top: 308px;
+  left: -110px;
+  padding-left: 46px;
+  padding-top: 15px;
+}
+.span-what {
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  color: #050505;
+}
+.telephone-box {
+  width: 438px;
+  height: 330px;
+  background: linear-gradient(180deg, #96cdff 0%, #379fff 100%);
+  margin-top: 40px;
+  margin-left: 25px;
+}
+.telephone-button {
+  width: 219px;
+  height: 62px;
+  border-radius: 16px;
+  background: #ff1111bd;
+  margin-left: 110px;
+  margin-top: 27px;
+}
+.telephone-name {
+  color: #ffffff;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 42px;
+}
+.text-bot-wtf {
+  width: 430px;
+  height: 221px;
+  margin-left: 32px;
+}
+.text-wtf {
+  font-family: "Pacifico", cursive;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38.63px;
+  text-align: left;
+  color: #ffffff;
+}
+.text-box-telephone {
+  width: 415px;
+  height: 222px;
+  padding-top: 6px;
+  padding-left: 15px;
+}
+.span-box {
+  font-family: "Pacifico", cursive;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.34px;
+  text-align: left;
+  color: #000000;
+}
+.list-box {
+  font-family: "Pacifico", cursive;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.34px;
+  text-align: left;
+  color: #000000;
+  list-style-type: disc;
+}

@@ -94,6 +94,7 @@ function App() {
           <Card key={index} abonent={abonent} onSelect={handleCardSelect} selected={selectedIds.includes(abonent.abonent_id)} />
         ))}
       </div>
+      
     </div>
   );
 }
