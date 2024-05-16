@@ -7,11 +7,11 @@ function NewPage() {
     <div className="container-big">
       <NewHeader />
       <div className="container">
-      <div class="circle-container"></div>
-  <div class="circle-container"></div>
-  <div class="circle-container"></div>
-  <div class="circle-container"></div>
-  <div class="circle-container"></div>
+        <div class="circle-container"></div>
+        <div class="circle-container"></div>
+        <div class="circle-container"></div>
+        <div class="circle-container"></div>
+        <div class="circle-container"></div>
         <div class="left-section">
           <div className="main-text">
             <h1>ГОЛОВНЕ УПРАВЛІННЯ ДПС </h1>
@@ -48,11 +48,11 @@ function NewPage() {
           </div>
         </div>
         <div class="right-section">
-            <div className="img">
+          <div className="img">
             <img className="img-img"
-            src="https://s3-alpha-sig.figma.com/img/273d/043a/6a88eb542e5ef1185d5f119e7b327d7b?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jfQYgUbcscwhqyNT~Gdei70vtugYjemzrCsLR3ftVu3iUxuXh0wZYNUUB0VfvcVLxnJfZaeAZAHwJptcuQhsDu7wYBGsl9q-ff8T71~~iAucIAHJUrXSXkaWso1IMcmEzv4TlOcJfUr95901MMnV05YWTbAqXH6l5PmCXPwV13X6rrKJYB5b-G5Mu-TLxxvad5KySIKpMqmQncA-U9iic~70pPJsBPiEEmdkzEhaRv4cMsQ~xVsj2VaJVrdohB~8TBbpTeKQDA1heVSwmEdbUcBEJDxjsdNLxQPrmy6dypC7fbPyURzpJ1XxOoQASi5Qw2sHujggxDzQrqgR4vIvrg__"
-          />
-            </div>
+              src="https://s3-alpha-sig.figma.com/img/273d/043a/6a88eb542e5ef1185d5f119e7b327d7b?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jfQYgUbcscwhqyNT~Gdei70vtugYjemzrCsLR3ftVu3iUxuXh0wZYNUUB0VfvcVLxnJfZaeAZAHwJptcuQhsDu7wYBGsl9q-ff8T71~~iAucIAHJUrXSXkaWso1IMcmEzv4TlOcJfUr95901MMnV05YWTbAqXH6l5PmCXPwV13X6rrKJYB5b-G5Mu-TLxxvad5KySIKpMqmQncA-U9iic~70pPJsBPiEEmdkzEhaRv4cMsQ~xVsj2VaJVrdohB~8TBbpTeKQDA1heVSwmEdbUcBEJDxjsdNLxQPrmy6dypC7fbPyURzpJ1XxOoQASi5Qw2sHujggxDzQrqgR4vIvrg__"
+            />
+          </div>
 
           <div className="text-bot-wtf">
             <span className="text-wtf">

@@ -28,6 +28,7 @@
     "server": "nodemon src/server/server.js",
     "client": "react-scripts start",
     "build": "react-scripts build",
+    "prod": "concurrently \"serve -s build\" \"npm run server\"",
     "test": "react-scripts test"
   },
   "eslintConfig": {
