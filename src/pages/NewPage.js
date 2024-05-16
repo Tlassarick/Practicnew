@@ -7,6 +7,11 @@ function NewPage() {
     <div className="container-big">
       <NewHeader />
       <div className="container">
+      <div class="circle-container"></div>
+  <div class="circle-container"></div>
+  <div class="circle-container"></div>
+  <div class="circle-container"></div>
+  <div class="circle-container"></div>
         <div class="left-section">
           <div className="main-text">
             <h1>ГОЛОВНЕ УПРАВЛІННЯ ДПС </h1>
@@ -80,7 +85,7 @@ function NewPage() {
             </div>
             <button
               className="telephone-button"
-              onClick={() => (window.location.href = "/")}
+              onClick={() => (window.location.href = "/abonent")}
             >
               <span className="telephone-name">Перейти</span>
             </button>

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import NewPage from "./pages/NewPage.js";
 import Page from "./pages/Page.js";
-import {BrowserRouter as Route, Router, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [data, setData] = useState([]);
@@ -50,7 +50,6 @@ function App() {
 
   return (
     <div className="App">
-      <NewPage />
       <Router>
         <Routes>
           <Route  path="/" element={<NewPage />} />

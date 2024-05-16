@@ -3,7 +3,7 @@ import React from "react";
 function NewHeader() {
   return (
     <header>
-      <nav className="nav-links">
+      <nav className="nav-links-main">
         <div className="link-container">
           <a href="/" className="nav-link">
             Головна сторінка
