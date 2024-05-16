@@ -5,13 +5,13 @@ function NewHeader() {
     <header>
       <nav className="nav-links">
         <div className="link-container">
-          <a href="/contacts" className="nav-link">
+          <a href="/" className="nav-link">
             Головна сторінка
           </a>
-          <a href="/contacts" className="nav-link">
+          <a href="/law" className="nav-link">
             Законодавство
           </a>
-          <a href="/contacts" className="nav-link">
+          <a href="/press" className="nav-link">
             Прес-центр
           </a>
           <a href="/contacts" className="nav-link">
