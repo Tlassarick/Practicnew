@@ -23,6 +23,8 @@
   width: 282px;
   height: 69px;
   margin-left: 120px;
+  display: flex; 
+  align-items: center; 
 }
 .nav-links,
 .user-panel {
@@ -68,12 +70,10 @@
   top: 30px;
   margin-left: 140px;
 }
-.logo-body span {
-  display: block; /* или inline-block, в зависимости от ваших нужд */
-  color: #ffffff; /* Белый цвет текста */
-  font-size: 14px; /* Размер шрифта */
-  margin-top: 5px; /* Отступ сверху */
-  text-align: center; /* Выравнивание текста по центру */
+.logo-text {
+  margin-left: 10px; 
+  color: #FFFFFF; 
+  font-size: 20px;
 }
 .user-panel .welcome-text::after {
   content: "";
